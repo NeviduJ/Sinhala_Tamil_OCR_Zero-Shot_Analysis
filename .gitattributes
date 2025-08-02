@@ -1,3 +1,5 @@
 *.arrow filter=lfs diff=lfs merge=lfs -text
 data/data-00000-of-00001.arrow filter=lfs diff=lfs merge=lfs -text
 * !text -filter -merge -diff
+code/Tamil/Dataset_Creation/*.txt filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
