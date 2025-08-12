@@ -1,3 +1,11 @@
+# Zero-Shot Analysis of OCR Engines for Sinhala and Tamil
+
+This study presents a comparative analysis of the zero-shot performance of six distinct OCR engines on two LRLs: Sinhala and Tamil. The selected engines include both commercial and open-source systems, aiming to evaluate the strengths of each category. The Cloud Vision API, Surya, Document AI, and Tesseract were evaluated for both Sinhala and Tamil, while Subasa OCR and EasyOCR were examined for only one language due to their limitations. The performance of these systems was rigorously analysed using five measurement techniques to assess accuracy at both the character and word levels. According to the findings, Surya delivered the best performance for Sinhala across all metrics, with a WER of 2.61%. Conversely, Document AI excelled across all metrics for Tamil, highlighted by a very low CER of 0.78%.
+
+## Tamil Text Image Dataset
+
+In addition to the above analysis, we also introduce a novel synthetic Tamil OCR benchmarking dataset.
+
 ---
 language:
 - ta
@@ -10,13 +18,7 @@ task_categories:
 - image-to-text
 ---
 
-# Zero-Shot Analysis of OCR Engines for Sinhala and Tamil
-
-This study presents a comparative analysis of the zero-shot performance of six distinct OCR engines on two LRLs: Sinhala and Tamil. The selected engines include both commercial and open-source systems, aiming to evaluate the strengths of each category. The Cloud Vision API, Surya, Document AI, and Tesseract were evaluated for both Sinhala and Tamil, while Subasa OCR and EasyOCR were examined for only one language due to their limitations. The performance of these systems was rigorously analysed using five measurement techniques to assess accuracy at both the character and word levels. According to the findings, Surya delivered the best performance for Sinhala across all metrics, with a WER of 2.61%. Conversely, Document AI excelled across all metrics for Tamil, highlighted by a very low CER of 0.78%.
-
-## Tamil Text Image Dataset
-
-In addition to the above analysis, we also introduce a novel synthetic Tamil OCR benchmarking dataset. This dataset contains images of Tamil text generated from 6 different fonts:
+This dataset contains images of Tamil text generated from 6 different fonts:
 
 - Hind_Madurai
 - Noto_Serif_Tamil
