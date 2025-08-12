@@ -57,3 +57,14 @@ text = first_example['text']
 print(f"Text: {text}")
 # image.show() # To display the image (requires libraries like Pillow)
 ```
+
+## Citation
+
+```json
+@article{jayatilleke2025zero,
+  title={Zero-shot OCR Accuracy of Low-Resourced Languages: A Comparative Analysis on Sinhala and Tamil},
+  author={Jayatilleke, Nevidu and de Silva, Nisansa},
+  journal={arXiv preprint arXiv:2507.18264},
+  year={2025}
+}
+```
