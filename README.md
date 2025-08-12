@@ -4,21 +4,7 @@ This study presents a comparative analysis of the zero-shot performance of six d
 
 ## Tamil Text Image Dataset
 
-In addition to the above analysis, we also introduce a novel synthetic Tamil OCR benchmarking dataset.
-
----
-language:
-- ta
-tags:
-- tamil
-- text
-- images
-- ocr
-task_categories:
-- image-to-text
----
-
-This dataset contains images of Tamil text generated from 6 different fonts:
+In addition to the above analysis, we also introduce a novel synthetic Tamil OCR benchmarking dataset. This dataset contains images of Tamil text generated from 6 different fonts:
 
 - Hind_Madurai
 - Noto_Serif_Tamil
