@@ -53,10 +53,21 @@ print(f"Text: {text}")
 ## Citation
 
 ```json
-@article{jayatilleke2025zero,
-  title={Zero-shot OCR Accuracy of Low-Resourced Languages: A Comparative Analysis on Sinhala and Tamil},
-  author={Jayatilleke, Nevidu and de Silva, Nisansa},
-  journal={arXiv preprint arXiv:2507.18264},
-  year={2025}
+@inproceedings{jayatilleke-de-silva-2025-zero,
+    title = "Zero-shot {OCR} Accuracy of Low-Resourced Languages: A Comparative Analysis on {S}inhala and {T}amil",
+    author = "Jayatilleke, Nevidu  and
+      de Silva, Nisansa",
+    editor = "Angelova, Galia  and
+      Kunilovskaya, Maria  and
+      Escribe, Marie  and
+      Mitkov, Ruslan",
+    booktitle = "Proceedings of the 15th International Conference on Recent Advances in Natural Language Processing - Natural Language Processing in the Generative AI Era",
+    month = sep,
+    year = "2025",
+    address = "Varna, Bulgaria",
+    publisher = "INCOMA Ltd., Shoumen, Bulgaria",
+    url = "https://aclanthology.org/2025.ranlp-1.56/",
+    pages = "471--480",
+    abstract = "Solving the problem of Optical Character Recognition (OCR) on printed text for Latin and its derivative scripts can now be considered settled due to the volumes of research done on English and other High-Resourced Languages (HRL). However, for Low-Resourced Languages (LRL) that use unique scripts, it remains an open problem. This study presents a comparative analysis of the zero-shot performance of six distinct OCR engines on two LRLs: Sinhala and Tamil. The selected engines include both commercial and open-source systems, aiming to evaluate the strengths of each category. The Cloud Vision API, Surya, Document AI, and Tesseract were evaluated for both Sinhala and Tamil, while Subasa OCR and EasyOCR were examined for only one language due to their limitations. The performance of these systems was rigorously analysed using five measurement techniques to assess accuracy at both the character and word levels. According to the findings, Surya delivered the best performance for Sinhala across all metrics, with a WER of 2.61{\%}. Conversely, Document AI excelled across all metrics for Tamil, highlighted by a very low CER of 0.78{\%}. In addition to the above analysis, we also introduce a novel synthetic Tamil OCR benchmarking dataset."
 }
 ```
